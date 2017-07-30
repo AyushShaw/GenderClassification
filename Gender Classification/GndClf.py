@@ -10,7 +10,7 @@ X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
 Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 
-#Desision Tree classifier 
+# Desision Tree classifier 
 clf_t = tree.DecisionTreeClassifier()
 
 clf_t = clf_t.fit(X, Y)
@@ -27,3 +27,13 @@ clf_svc = clf_svc.fit(X, Y)
 pred_svc = clf_svc.predict([[143, 50, 33]])
 
 print("The SVC prediction is {}".format(pred_svc) )
+
+# Some Classifier
+clf_svc = svm.LinearSVC()
+
+clf_svc = clf_svc.fit(X, Y)
+
+pred_svc = clf_svc.predict([[143, 50, 33]])
+
+print("The SVC prediction is {}".format(pred_svc) )
+
