@@ -41,7 +41,7 @@ Perceptron is a type of linear classifier. It The First Neural Net.
 SVC and NuSVC are methods, that accepts slightly different sets of parameters and have different mathematical formulations. LinearSVC is another implementation of Support Vector Classification for the case of a linear kernel. 
 Linear Support Vector Classification, is similar to SVC with parameter kernel=’linear’, but implemented in terms of liblinear rather than libsvm, so it has more flexibility in the choice of penalties and loss functions and should scale better to large numbers of samples. All three are Based On *Support Vector Machines Model*
 
-Classification Models Used
+Accuracy Metrics
 -------
 To measure and Compare the Accuracy of the Prediction we are using the accuracy_score fuction. We shall measure the accuracy via the count of nomber of right predictions.
 The accuracy_score function can computes the accuracy, by the count of correct predictions, if implemented as
