@@ -2,7 +2,7 @@ Gender Classification with Scikit Learn
 =======================================
 
 In This Program We are Classifying the Gender Of people By Knowing the Body metrics only..
-WE make The Train Dataset with 2 Lists 
+We are going to make The Training Dataset with the help of 2 Lists
 List X contains the Body metrics [height, weight, foot size]
 List Y contains the Gender 
 
@@ -13,7 +13,7 @@ List Y contains the Gender
 --------------
 
 	 1. Scikit Learn 
-	 2. Numpy
+	 2. Numpy(meh i didn't need it :P)
 
 Classification Models Used
 -------
@@ -53,29 +53,29 @@ accuracy_score(X, Y, normalize=False)
 
 Output
 -------
-The Desision tree prediction is ['male' 'male' 'female' 'female' 'male' 'male' 'female' 'female' 'female'
- 'male' 'male']
+	The Desision tree prediction is ['male' 'male' 'female' 'female' 'male' 'male' 'female' 'female' 'female'
+	 'male' 'male']
 
-It's Accuracy is 11
+	It's Accuracy is 11
 
-The Naive Bayes  prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'male' 'female'
- 'male' 'male']
+	The Naive Bayes  prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'male' 'female'
+	 'male' 'male']
 
-It's Accuracy is 9
+	It's Accuracy is 9
 
-The Nearest Centroid prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'male' 'female'
- 'male' 'male']
+	The Nearest Centroid prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'male' 'female'
+	 'male' 'male']
 
-It's Accuracy is 9
+	It's Accuracy is 9
 
-The SVC prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'female' 'female'
- 'male' 'male']
+	The SVC prediction is ['male' 'male' 'female' 'female' 'female' 'male' 'female' 'female' 'female'
+	 'male' 'male']
 
-It's Accuracy is 10
+	It's Accuracy is 10
 
-The Perceptron Prediction is ['male' 'male' 'male' 'male' 'male' 'male' 'male' 'male' 'male' 'male'
- 'male']
- 
-It's Accuracy is 6
+	The Perceptron Prediction is ['male' 'male' 'male' 'male' 'male' 'male' 'male' 'male' 'male' 'male'
+	 'male']
 
-We can see the Best accuracy was of Decision Tree
+	It's Accuracy is 6
+
+	We can see the Best accuracy was of Decision Tree
