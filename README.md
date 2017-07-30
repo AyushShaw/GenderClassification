@@ -34,7 +34,7 @@ The NearestCentroid classifier is a simple algorithm that represents each class 
 
 ***4. Perceptron***
 
-Perceptron is a type of linear classifier. It The First Neural Net.
+Perceptron is a type of linear classifier.
 
 ***5. Support Vector Classifier***
 
