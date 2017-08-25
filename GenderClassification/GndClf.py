@@ -57,6 +57,6 @@ print("It's Accuracy is {}".format(acc_p))
 # Best Accuracy
 classifier = {0: 'Decision Tree', 1: 'Naive Bayes', 2: 'Nearest Centroid', 3: 'Perceptron', 4: 'Support Vector'}
 accu = [acc_dt, acc_gnb, acc_nc, acc_p, acc_svc]
-Index = accu.index(max(accu))
+Index = accu.index(max(accu)) 
 print("We can see the Best accuracy was of {}".format(classifier[Index]))
 
